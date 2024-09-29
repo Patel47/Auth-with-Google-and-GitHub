@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Profile</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome, <%= user.displayName %>!</h1>
+      <p>You are logged in via <%= user.provider %>.</p>
+      <a href="/logout" class="btn">Logout</a>
+    </div>
+  </body>
+</html>
